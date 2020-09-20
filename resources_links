@@ -1,0 +1,17 @@
+list of top 10 pre trained NN for image classification:
+https://paperswithcode.com/sota/image-classification-on-imagenet 
+
+top performin NN on ImageNet: 
+https://paperswithcode.com/paper/fixing-the-train-test-resolution-discrepancy-2 
+
+refresh of general CNN architecture:
+https://cs231n.github.io/convolutional-networks/
+
+
+GPU and TPU free resources: 
+
+list (google colab, keras):
+https://towardsdatascience.com/training-machine-learning-models-online-for-free-gpu-tpu-enabled-5def6a5c1ce3 
+
+IBM GUI for NN, access to NVIDIA Tesla GPUS, entirely on IBM cloud, but I have never used this before: 
+https://www.ibm.com/dk-en/cloud/deep-learning?p1=Search&p4=43700052284179195&p5=b&cm_mmc=Search_Google-_-1S_1S-_-EP_DK-_-%2Bdeep%20%2Blearning_b&cm_mmca7=71700000064602847&cm_mmca8=aud-382859943522:kwd-65794568911&cm_mmca9=CjwKCAjw2Jb7BRBHEiwAXTR4jV9Nkx9O3G1nQi2OI1uon99JUMypqbmnlVhzq-oUbxa6fJrfzDy1ZhoCjnsQAvD_BwE&cm_mmca10=424362254604&cm_mmca11=b&gclid=CjwKCAjw2Jb7BRBHEiwAXTR4jV9Nkx9O3G1nQi2OI1uon99JUMypqbmnlVhzq-oUbxa6fJrfzDy1ZhoCjnsQAvD_BwE&gclsrc=aw.ds
