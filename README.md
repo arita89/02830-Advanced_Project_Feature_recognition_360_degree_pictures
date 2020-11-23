@@ -13,17 +13,19 @@ The data sources are multiple and different:
 - part has been produced via image augmentation as per correspondent Notebook(flip, split, zoom, spherical projection)
 - part has been given by Google Team as resource available to students(ca 3300 panoramic images part of dataset "") 
 
-In fact one of the major problem to train a model to recognise deformed features, is the availability of such data to train with. 
+In fact one of the major challenge to train a model to recognise deformed features, is the availability of such data to train with. 
 
-The second problem is the time required for training.
+The second challenge is the time required for training.
 For reference:
 - using cpu to train over 10 epochs would take ca 34 hours.
 - using 1core gpu (interactive nodes) to train over 10 epochs would take roughly 100 minutes. 
 - using 4cores gpu (gpuv nodes) to train over 10 epoch takes a very acceptable 20 minutes. 
 Both interactive and gpuv nodes are accessible through hpc services, of course there is sometimes queue on the gpuv ones (for up to 24h) and sometimes the interactive ones are also completely used. 
 
-The third problem is space to store images and trained models.
+The third challenge is space to store images and trained models.
 My own premium Google Drive (with 100GB) has been used for the purpose and I will keep the files store at least until this semester is over. 
+
+The fourth challenge was to create datasets with desired characteristics, by sampling from the -limited- available data.
 
 ## Project tasks, progresses and contributions
 https://github.com/arita89/Feature_recognition_360_degree_pictures/projects/1
