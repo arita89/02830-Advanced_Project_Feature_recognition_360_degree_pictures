@@ -1,6 +1,6 @@
 ## 02830- advanced project in digital media engineering **
-Majidi, Oldouz  \\ s163502  
 Taormina, Arianna \\ s163671
+Majidi, Oldouz  \\ s163502  
 
 Scope of this project is to train a model able to detect features in panoramic 360 degree pictures, in which lines can be more or less deformed due to the projection on the plane. 
 The chosen method is: transfer learning from a pre-trained model.
