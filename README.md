@@ -33,20 +33,20 @@ https://github.com/arita89/Feature_recognition_360_degree_pictures/projects/1
 ## Prerequisites
 
 ```
-* tensorflow-gpu==2.3.0
-* opencv-python
-* keras
-* cuda/10.1
-* cudnn/v7.6.5.32-prod-cuda-10.1
-* ImageAI-master- updated version to tf:2-3
+tensorflow-gpu==2.3.0
+opencv-python
+keras
+cuda/10.1
+cudnn/v7.6.5.32-prod-cuda-10.1
+ImageAI-master- updated version to tf:2-3
 ```
 
 ## Files Description
-1.data_augmentation_pipeline.ipynb - applies augmentation to the training data and saves it
-2.dataset_creation_pipeline.ipynb - feeds from 3 datasets and creates train, validation and test sets
-3.fire_train.py - trains model against the training images of fire extinguishers
-4.fire_val.py - validation of the model against the validation images
-5.fire_detection.py - application of the trained model to new test data
+- 1.data_augmentation_pipeline.ipynb - applies augmentation to the training data and saves it
+- 2.dataset_creation_pipeline.ipynb - feeds from 3 datasets and creates train, validation and test sets
+- 3.fire_train.py - trains model against the training images of fire extinguishers
+- 4.fire_val.py - validation of the model against the validation images
+- 5.fire_detection.py - application of the trained model to new test data
 
 ## Original Data directory 
 https://drive.google.com/drive/folders/1EfidSd0ToVxPfxmiyUQ1ifSJMCTsOL-N?usp=sharing
