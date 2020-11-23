@@ -1,5 +1,6 @@
-**  02830- advanced project in digital media engineering **
-Majidi, Oldouz  \\ s163502  \And Taormina, Arianna \\ s163671
+## 02830- advanced project in digital media engineering **
+Majidi, Oldouz  \\ s163502  
+Taormina, Arianna \\ s163671
 
 
 **see TAB Projects for Tasks overview**
@@ -50,16 +51,5 @@ https://drive.google.com/drive/folders/11_oMAxRm2sanwdQGY3jr1EG3t5AkJEF3?usp=sha
     ├── model_eval_High                 # contains results of trained model validated against images with high degree of deformation
     ├── model_eval_Low                  # contains results of trained model validated against images with high low of deformation
     └── model_eval_Non                  # contains results of trained model validated against images with high no deformation
-
-    
-### Model.zip directory layout
-
-    .
-    ├── model_eval_High                  # contains a backup copy of the .py files living on the hpc server
-    ├── model_eval_Low                   # contains zip files with different trained models and the datasets they have been trained on
-    └── model_eval_None                  # contains zip files with different datasets with their training and validation images
-    .
-    .         
-    └── README.md
     
 ```
