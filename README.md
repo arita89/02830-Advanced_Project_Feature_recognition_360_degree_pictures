@@ -2,9 +2,31 @@
 Majidi, Oldouz  \\ s163502  
 Taormina, Arianna \\ s163671
 
+Scope of this project is to train a model able to detect features in panoramic 360 degree pictures, in which lines can be more or less deformed due to the projection on the plane. 
+The chosen method is: transfer learning from a pre-trained model.
+The chosen model is: yolo v3 for its versatility and ability to detect more features at once (even though we trained only for one).
+The chosen package is: ImageAI, which required modifications on the source code to make it compatible with supported versions of TensorFlow and Keras.
 
-**see TAB Projects for Tasks overview**
+The data sources are multiple and different:
+- part has been collected on our own, with a goPro (kindly given by DTU Skylab) 
+- part has been scraped from the internet (using Image Downloader Chrome Extension ) 
+- part has been produced via image augmentation as per correspondent Notebook(flip, split, zoom, spherical projection)
+- part has been given by Google Team as resource available to students(ca 3300 panoramic images part of dataset "") 
 
+In fact one of the major problem to train a model to recognise deformed features, is the availability of such data to train with. 
+
+The second problem is the time required for training.
+For reference:
+- using cpu to train over 10 epochs would take ca 34 hours.
+- using 1core gpu (interactive nodes) to train over 10 epochs would take roughly 100 minutes. 
+- using 4cores gpu (gpuv nodes) to train over 10 epoch takes a very acceptable 20 minutes. 
+Both interactive and gpuv nodes are accessible through hpc services, of course there is sometimes queue on the gpuv ones (for up to 24h) and sometimes the interactive ones are also completely used. 
+
+The third problem is space to store images and trained models.
+My own premium Google Drive (with 100GB) has been used for the purpose and I will keep the files store at least until this semester is over. 
+
+## Project tasks, progresses and contributions
+https://github.com/arita89/Feature_recognition_360_degree_pictures/projects/1
 
 ## Prerequisites
 
