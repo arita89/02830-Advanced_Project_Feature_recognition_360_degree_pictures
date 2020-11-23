@@ -75,5 +75,15 @@ https://drive.google.com/drive/folders/11_oMAxRm2sanwdQGY3jr1EG3t5AkJEF3?usp=sha
     ├── model_eval_High                 # contains results of trained model validated against images with high degree of deformation
     ├── model_eval_Low                  # contains results of trained model validated against images with high low of deformation
     └── model_eval_Non                  # contains results of trained model validated against images with high no deformation
+
+### One dataset directory layout
+
+    .
+    ├──train                 
+        ├── images              # contains images used for training
+        └── annotations         # contains correspondent PascalVOC annotations in xml format
+    └── validation           
+        ├── images              # contains images used for validation     
+        └── annotations         # contains correspondent PascalVOC annotations in xml format
     
 ```
