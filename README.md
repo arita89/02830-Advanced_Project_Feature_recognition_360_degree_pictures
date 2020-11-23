@@ -33,12 +33,12 @@ https://github.com/arita89/Feature_recognition_360_degree_pictures/projects/1
 ## Prerequisites
 
 ```
-tensorflow-gpu==2.3.0
-opencv-python
-keras
-cuda/10.1
-cudnn/v7.6.5.32-prod-cuda-10.1
-ImageAI-master- updated version to tf:2-3
+* tensorflow-gpu==2.3.0
+* opencv-python
+* keras
+* cuda/10.1
+* cudnn/v7.6.5.32-prod-cuda-10.1
+* ImageAI-master- updated version to tf:2-3
 ```
 
 ## Files Description
