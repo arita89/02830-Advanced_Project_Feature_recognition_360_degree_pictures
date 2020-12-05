@@ -49,7 +49,7 @@ ImageAI-master- updated version to tf:2-3
 - 5.fire_detection.py - application of the trained model to new test data
 
 ## Original Data directory 
-https://drive.google.com/drive/folders/1EfidSd0ToVxPfxmiyUQ1ifSJMCTsOL-N?usp=sharing
+https://drive.google.com/drive/folders/152ju7nAFRZv44JzOgjRENpx8SejRydFq?usp=sharing
 
 ### Original Data directory layout
 
@@ -57,9 +57,9 @@ https://drive.google.com/drive/folders/1EfidSd0ToVxPfxmiyUQ1ifSJMCTsOL-N?usp=sha
     ├── DATA_0                 # contains #100 360 degree images from Google dataset and that have been collected first hand, plus labels
     ├── DATA_1                 # contains #400 images with no deformation, swiped from internet, plus labels 
     ├── DATA_2                 # contains #400 images with high level deformation, obtained via data augmentation, plus labels      
-    └── TEST
+   └── TEST
 
-## Models and Datasets directory
+## Models directory
 https://drive.google.com/drive/folders/11_oMAxRm2sanwdQGY3jr1EG3t5AkJEF3?usp=sharing
 
 ### Dataset top-level directory layout
