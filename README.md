@@ -60,14 +60,8 @@ https://drive.google.com/drive/folders/152ju7nAFRZv44JzOgjRENpx8SejRydFq?usp=sha
    └── TEST
 
 ## Models directory
-https://drive.google.com/drive/folders/11_oMAxRm2sanwdQGY3jr1EG3t5AkJEF3?usp=sharing
+https://drive.google.com/drive/folders/1P9u4lpUWe4I4k18mNepv1DHzghgeihh7?usp=sharing
 
-### Dataset top-level directory layout
-
-    .
-    ├── scripts                 # contains a backup copy of the .py files living on the hpc server
-    ├── model                   # contains zip files with different trained models and the datasets they have been trained on
-    └── data                    # contains zip files with different datasets with their training and validation images
     
 ### Model.zip directory layout
 
@@ -77,7 +71,8 @@ https://drive.google.com/drive/folders/11_oMAxRm2sanwdQGY3jr1EG3t5AkJEF3?usp=sha
     └── model_eval_Non                  # contains results of trained model validated against images with high no deformation
 
 ### One dataset directory layout
-
+# due to lack of space only the dataset for model 4 has been kept
+# anyhow they can be all recreated from DATA_0,DATA_1 and DATA_2 following the dedicated pipeline
     .
     ├──train                 
         ├── images              # contains images used for training
